@@ -1,0 +1,142 @@
+body
+{
+	background: url("img/school.png");
+	background-attachment: fixed;
+	font-family: Helvetica, Arial;
+	margin: 0 auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container
+{
+	width: 100%;
+	max-width: 960px;
+	margin: 15px;
+	padding: 10px;
+}
+
+
+/*HEADER*/
+
+header
+{
+	background: url("img/green_dust_scratch.png") fixed repeat;
+	height: 240px;
+	padding: 0px;
+	margin-top: -15px;
+	position: relative;
+}
+
+#photo
+{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin: 0 2% 0 0;
+	background-image: url("img/florianchambolle.jpg");
+	background-size: 150px 150px;
+}
+
+#identite
+{
+	display: inline-block;
+	position: absolute;
+	margin-top: -27px;
+}
+
+#identite ul
+{
+	display: inline-block;
+	padding: 0 6% 0 0;
+	list-style: none;
+}
+
+#identite a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.social-network
+{
+	float: right;
+	padding: 0px;
+}
+
+.facebook, .twitter, .linkedin, .github
+{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+
+.facebook
+{
+	background-image: url("img/facebook.png");
+	background-size: 32px 32px;
+}
+
+.twitter
+{
+	background-image: url("img/TwitterLogo_55acee.png");
+	background-size: 32px 32px;
+}
+
+.linkedin
+{
+	background-image: url("img/In-2CRev-128px-R.png");
+	background-size: 32px 32px;
+}
+
+.github
+{
+	background-image: url("img/GitHub-Mark-120px-plus.png");
+	background-size: 32px 32px;
+}
+
+
+/*MAIN*/
+
+#col-1, #col-2, #col-3
+{
+	display: inline-block;
+	width: 30%;
+	text-align: justify;
+	padding: 10px;
+	vertical-align: top;
+}
+
+#col-1 h3, #col-2 h3, #col-3 h3
+{
+	text-align: center;
+}
+
+
+/*FOOTER*/
+
+#map
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#coordonnees
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+
+#coordonnees a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#coordonnees ul
+{
+	list-style: none;
+	margin-top: 0px;
+	line-height: 2.5em;
+}
